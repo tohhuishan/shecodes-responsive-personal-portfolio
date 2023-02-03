@@ -6,7 +6,7 @@ font-family: 'Inter', sans-serif; */
   --body-font-family: "Inter", sans-serif;
   --body-color: black;
   --primary-color: #ffd700;
-  --secondary-color: white;
+  --secondary-color: #ffffff;
 }
 
 body {
@@ -64,4 +64,10 @@ h2 .about-link:hover,
 h2 .experience-link:hover,
 h2 .contact-link:hover {
   text-decoration: underline;
+}
+
+div.social-links .email-link,
+div.social-links .linkedin-link,
+div.social-links .instagram-link {
+  font-size: 30px;
 }
