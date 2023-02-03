@@ -38,6 +38,10 @@ div.introduction h3 {
   font-size: 36px;
 }
 
+div.portrait-photos {
+  padding: 48px;
+}
+
 div.portrait-photos img.first-portrait-photo,
 div.portrait-photos img.second-portrait-photo {
   border-radius: 4px;
@@ -66,8 +70,86 @@ h2 .contact-link:hover {
   text-decoration: underline;
 }
 
+div.about-me p,
+div.my-experience p,
+div.contact-me p {
+  font-size: 16px;
+}
+
 div.social-links .email-link,
 div.social-links .linkedin-link,
 div.social-links .instagram-link {
   font-size: 30px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  div.introduction h2 {
+    font-size: 18px;
+  }
+
+  div.introduction h3 {
+    font-size: 28px;
+  }
+
+  div.portrait-photos {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 100px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  div.introduction h2 {
+    font-size: 16px;
+  }
+
+  div.introduction h3 {
+    font-size: 22px;
+  }
+
+  div.portrait-photos {
+    padding: 4px;
+  }
+
+  div.about-me p,
+  div.my-experience p,
+  div.contact-me p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 440px) {
+  body {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 80px 60px;
+  }
+}
+
+@media (max-width: 355px) {
+  body {
+    padding: 60px 40px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  div.introduction h3 {
+    font-size: 20px;
+  }
 }
