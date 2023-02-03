@@ -39,12 +39,11 @@ div.introduction h3 {
 }
 
 div.portrait-photos {
-  padding: 48px;
+  padding: 36px 36px 0;
 }
 
 div.portrait-photos img.first-portrait-photo,
 div.portrait-photos img.second-portrait-photo {
-  border-radius: 4px;
   width: 400px;
 }
 
