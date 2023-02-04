@@ -52,25 +52,25 @@ div.portrait-photos img.second-portrait-photo {
   width: 400px;
 }
 
-h2 .about-link,
-h2 .experience-link,
-h2 .contact-link {
+div.about-me,
+div.my-experience,
+div.contact-me {
+  margin-top: 50px;
+}
+
+h2 .about-page-link,
+h2 .experience-page-link,
+h2 .contact-page-link {
   color: var(--primary-color);
   font-family: var(--header-font-family);
   line-height: 1.8;
   text-decoration: none;
 }
 
-h2 .about-link:hover,
-h2 .experience-link:hover,
-h2 .contact-link:hover {
+h2 .about-page-link:hover,
+h2 .experience-page-link:hover,
+h2 .contact-page-link:hover {
   text-decoration: underline;
-}
-
-div.about-me,
-div.my-experience,
-div.contact-me {
-  margin-top: 50px;
 }
 
 div.about-me p,
@@ -81,10 +81,29 @@ div.contact-me p {
   font-size: 16px;
 }
 
-div.social-links .email-link,
-div.social-links .linkedin-link,
-div.social-links .instagram-link {
+div.social-links .email-link-icon,
+div.social-links .linkedin-link-icon,
+div.social-links .instagram-link-icon {
   font-size: 30px;
+}
+
+div.top-section {
+  margin-bottom: 80px;
+}
+
+div.content-section h2 {
+  color: var(--primary-color);
+  font-family: var(--header-font-family);
+}
+
+div.content-section a {
+  color: var(--secondary-color);
+  font-family: var(--body-font-family);
+  text-decoration: none;
+}
+
+div.content-section a:hover {
+  text-decoration: underline;
 }
 
 div.bottom-section h3.also-explore-tag {
@@ -127,6 +146,10 @@ div.bottom-section .contact-link:hover {
   div.portrait-photos {
     padding: 12px;
   }
+
+  div.top-section {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -157,11 +180,19 @@ div.bottom-section .contact-link:hover {
   div.contact-me p {
     font-size: 14px;
   }
+
+  div.top-section {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 440px) {
   body {
     padding: 80px;
+  }
+
+  div.top-section {
+    margin-bottom: 32px;
   }
 }
 
