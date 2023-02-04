@@ -106,7 +106,8 @@ div.content-section a:hover {
   text-decoration: underline;
 }
 
-div.bottom-section {
+div.bottom-section,
+div.bottom-section .social-links {
   margin-top: 80px;
 }
 
@@ -155,7 +156,8 @@ div.bottom-section .contact-link:hover {
     margin-bottom: 50px;
   }
 
-  div.bottom-section {
+  div.bottom-section,
+  div.bottom-section .social-links {
     margin-top: 50px;
   }
 }
@@ -193,8 +195,15 @@ div.bottom-section .contact-link:hover {
     margin-bottom: 40px;
   }
 
-  div.bottom-section {
+  div.bottom-section,
+  div.bottom-section .social-links {
     margin-top: 40px;
+  }
+
+  div.social-links .email-link-icon,
+  div.social-links .linkedin-link-icon,
+  div.social-links .instagram-link-icon {
+    font-size: 26px;
   }
 }
 
@@ -207,7 +216,8 @@ div.bottom-section .contact-link:hover {
     margin-bottom: 32px;
   }
 
-  div.bottom-section {
+  div.bottom-section,
+  div.bottom-section .social-links {
     margin-top: 32px;
   }
 }
@@ -229,6 +239,12 @@ div.bottom-section .contact-link:hover {
 
   div.introduction h3,
   div.top-section h3 {
+    font-size: 20px;
+  }
+
+  div.social-links .email-link-icon,
+  div.social-links .linkedin-link-icon,
+  div.social-links .instagram-link-icon {
     font-size: 20px;
   }
 }
