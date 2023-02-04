@@ -87,9 +87,10 @@ div.social-links .instagram-link {
   font-size: 30px;
 }
 
-div.bottom-section h3 {
+div.bottom-section h3.also-explore-tag {
   color: var(--primary-color);
   font-family: var(--header-font-family);
+  font-style: italic;
 }
 
 div.bottom-section .about-link,
