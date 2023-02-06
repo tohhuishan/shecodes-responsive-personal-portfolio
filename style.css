@@ -65,6 +65,7 @@ h2 .contact-page-link {
   font-family: var(--header-font-family);
   line-height: 1.8;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
 h2 .about-page-link:hover,
@@ -96,14 +97,27 @@ div.content-section h2 {
   font-family: var(--header-font-family);
 }
 
+div.content-section p,
+div.content-section ul {
+  color: var(--secondary-color);
+}
+
 div.content-section a {
   color: var(--secondary-color);
   font-family: var(--body-font-family);
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
 div.content-section a:hover {
   text-decoration: underline;
+}
+
+div.content-sub-section {
+  margin-bottom: 52px;
+  font-family: var(--body-font-family);
+  font-weight: light;
+  line-height: 1.5;
 }
 
 div.bottom-section,
@@ -125,6 +139,7 @@ div.bottom-section .contact-link {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
 div.bottom-section .about-link:hover,
@@ -187,7 +202,9 @@ div.bottom-section .contact-link:hover {
 
   div.about-me p,
   div.my-experience p,
-  div.contact-me p {
+  div.contact-me p,
+  div.content-sub-section p,
+  div.content-sub-section ul {
     font-size: 14px;
   }
 
@@ -214,6 +231,10 @@ div.bottom-section .contact-link:hover {
 
   div.top-section {
     margin-bottom: 32px;
+  }
+
+  div.content-sub-section p {
+    font-size: 14px;
   }
 
   div.bottom-section,
