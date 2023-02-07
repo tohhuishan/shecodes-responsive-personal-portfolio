@@ -11,7 +11,7 @@ font-family: 'Inter', sans-serif; */
 
 body {
   background: var(--body-color);
-  padding: 140px;
+  padding: 0 140px 100px;
 }
 
 h1 {
@@ -20,9 +20,43 @@ h1 {
   font-size: 72px;
 }
 
+div.navigation-bar {
+  margin-top: 20px;
+}
+
+nav img.my-website-logo {
+  height: 100px;
+}
+
+nav ul {
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--primary-color);
+}
+
+nav li a.active {
+  font-weight: bold;
+}
+
 div.introduction,
 div.top-section {
   text-align: center;
+  margin-top: 48px;
 }
 
 div.introduction h2,
@@ -148,9 +182,27 @@ div.bottom-section .contact-link:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 760px) {
+  nav ul {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 60px;
+  }
+
+  nav img.my-website-logo {
+    height: 64px;
+  }
+
+  nav ul {
+    font-size: 14px;
+  }
+
+  nav li {
+    margin-right: 10px;
   }
 
   div.introduction h2,
@@ -179,11 +231,24 @@ div.bottom-section .contact-link:hover {
 
 @media (max-width: 576px) {
   body {
-    padding: 100px;
+    padding: 0 100px 80px;
   }
 
   h1 {
     font-size: 40px;
+  }
+
+  nav img.my-website-logo {
+    display: none;
+  }
+
+  nav ul {
+    font-size: 14px;
+  }
+
+  nav li {
+    margin-right: 6px;
+    margin-left: 6px;
   }
 
   div.introduction h2,
@@ -226,7 +291,16 @@ div.bottom-section .contact-link:hover {
 
 @media (max-width: 440px) {
   body {
-    padding: 80px;
+    padding: 0 80px 60px;
+  }
+
+  nav ul {
+    font-size: 12px;
+  }
+
+  nav li {
+    margin-right: 4px;
+    margin-left: 4px;
   }
 
   div.top-section {
@@ -245,13 +319,13 @@ div.bottom-section .contact-link:hover {
 
 @media (max-width: 400px) {
   body {
-    padding: 80px 60px;
+    padding: 0 60px 50px;
   }
 }
 
 @media (max-width: 355px) {
   body {
-    padding: 60px 40px;
+    padding: 0 40px 36px;
   }
 
   h1 {
