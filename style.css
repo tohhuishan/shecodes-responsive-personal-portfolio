@@ -88,7 +88,8 @@ div.portrait-photos img.second-portrait-photo {
 
 div.about-me,
 div.my-experience,
-div.contact-me {
+div.contact-me,
+div.my-resume {
   margin-top: 50px;
 }
 
@@ -102,21 +103,13 @@ div.contact-me p a {
 
 h2 .about-page-link,
 h2 .experience-page-link,
-h2 .contact-page-link {
+h2 .contact-page-link,
+h2 .resume-link {
   color: var(--primary-color);
   font-family: var(--header-font-family);
   line-height: 1.8;
   text-decoration: none;
   transition: all 150ms ease-in-out;
-}
-
-div.about-me p a:hover,
-div.my-experience p a:hover,
-div.contact-me p a:hover,
-h2 .about-page-link:hover,
-h2 .experience-page-link:hover,
-h2 .contact-page-link:hover {
-  text-decoration: underline;
 }
 
 div.about-me p,
@@ -155,10 +148,6 @@ div.content-section a {
   transition: all 150ms ease-in-out;
 }
 
-div.content-section a:hover {
-  text-decoration: underline;
-}
-
 div.content-sub-section {
   margin-bottom: 52px;
   font-family: var(--body-font-family);
@@ -188,19 +177,32 @@ div.bottom-section .contact-link {
   transition: all 150ms ease-in-out;
 }
 
-div.bottom-section .about-link:hover,
-div.bottom-section .experience-link:hover,
-div.bottom-section .contact-link:hover {
-  text-decoration: underline;
-}
-
 footer {
   margin-top: 60px;
   text-align: center;
 }
 
-footer a {
+footer .open-source-link {
   color: var(--secondary-color);
+}
+
+footer .open-source-link:hover {
+  color: var(--secondary-color);
+}
+
+div.about-me p a:hover,
+div.my-experience p a:hover,
+div.contact-me p a:hover,
+h2 .about-page-link:hover,
+h2 .experience-page-link:hover,
+h2 .contact-page-link:hover,
+h2 .resume-link:hover,
+div.content-section a:hover,
+div.bottom-section .about-link:hover,
+div.bottom-section .experience-link:hover,
+div.bottom-section .contact-link:hover,
+footer .open-source-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 760px) {
