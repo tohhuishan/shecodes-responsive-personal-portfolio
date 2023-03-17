@@ -92,6 +92,14 @@ div.contact-me {
   margin-top: 50px;
 }
 
+div.about-me p a,
+div.my-experience p a,
+div.contact-me p a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
 h2 .about-page-link,
 h2 .experience-page-link,
 h2 .contact-page-link {
@@ -102,6 +110,9 @@ h2 .contact-page-link {
   transition: all 150ms ease-in-out;
 }
 
+div.about-me p a:hover,
+div.my-experience p a:hover,
+div.contact-me p a:hover,
 h2 .about-page-link:hover,
 h2 .experience-page-link:hover,
 h2 .contact-page-link:hover {
@@ -193,7 +204,8 @@ footer a {
 }
 
 @media (max-width: 760px) {
-  nav ul {
+  nav ul,
+  footer {
     font-size: 14px;
   }
 }
@@ -207,7 +219,8 @@ footer a {
     height: 64px;
   }
 
-  nav ul {
+  nav ul,
+  footer {
     font-size: 13px;
   }
 
@@ -301,7 +314,8 @@ footer a {
     padding: 0 80px 40px;
   }
 
-  nav ul {
+  nav ul,
+  footer {
     font-size: 12px;
   }
 
